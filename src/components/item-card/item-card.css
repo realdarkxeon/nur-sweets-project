@@ -1,0 +1,36 @@
+.cake-card {
+    width: 17vw;
+    border-width: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.cake-photo {
+    width: 17vw;
+    height: 17vw;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cake-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cake-price {
+    font-weight: 700;
+
+}
+
+.add-to-cart {
+    font-weight: 700;
+}
