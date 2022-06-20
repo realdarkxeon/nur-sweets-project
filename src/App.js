@@ -1,5 +1,6 @@
 import './App.css';
 import { ItemCard } from './components/item-card';
+import { Navbar } from './components/Navbar/Navbar';
 
 const Cakes = [
   {
@@ -30,11 +31,14 @@ const Cakes = [
 
 function App() {
   return (
-    <div className="row">
-      {Cakes.map((cake) => (
-        <ItemCard cake={cake}/>
-      ))}
-    </div>
+    <>
+      <Navbar />
+      <div className="row">
+        {Cakes.map((cake) => (
+          <ItemCard cake={cake}/>
+        ))}
+      </div>
+    </> 
   );
 }
 
