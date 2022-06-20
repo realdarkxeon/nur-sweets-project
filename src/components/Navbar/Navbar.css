@@ -1,0 +1,39 @@
+.bg-orange {
+  background-color: #f77e21;
+}
+
+.navbar-brand {
+  color: #fef9a7;
+  font-weight: 900;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited {
+  color: #fef9a7;
+  background-color: Transparent;
+  border: none;
+  box-shadow: none;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  color: #f77e21;
+  background-color: #fef9a7;
+  font-weight: bold;
+}
+
+.form-control,
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+  background-color: #fac213;
+  color: #fef9a7;
+  border: none;
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: #fef9a7;
+}
