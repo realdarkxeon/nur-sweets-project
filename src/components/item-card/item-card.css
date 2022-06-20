@@ -1,12 +1,16 @@
 .cake-card {
-    width: 17vw;
+    width: min-content;
     border-width: 0;
     font-family: 'Inter', sans-serif;
+    background-color: #FEF9A7;
+    padding: 0;
+    margin: 2rem;
+    border-radius: 20px;
 }
 
 .cake-photo {
-    width: 17vw;
-    height: 17vw;
+    width: 16.5vw;
+    height: 16.5vw;
     border-radius: 20px;
 }
 
@@ -26,11 +30,30 @@
     justify-content: space-between;
 }
 
+.price-section {
+    background-color: #FAC213;
+    color: #FEF9A7;
+    border-radius: 0 20px 0 20px;
+    width: 122px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cake-price {
     font-weight: 700;
-
+    font-size: 16px;
 }
 
 .add-to-cart {
     font-weight: 700;
+    background-color: #D61C4E;
+    color: #FEF9A7;
+    border-radius: 20px 0 20px 0;
+    width: 122px;
+    height: 50px;
+    border-width: 0;
+    outline: none;
+    font-size: 16px;
 }
