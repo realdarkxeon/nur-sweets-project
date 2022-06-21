@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="row">
+      <div className="row px-5">
         {Cakes.map((cake) => (
           <ItemCard cake={cake}/>
         ))}
