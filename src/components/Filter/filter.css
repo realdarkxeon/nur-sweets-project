@@ -7,6 +7,11 @@
     display: flex;
     justify-content: center;
     font-size:large;
+    border-width: 0;
+}
+
+.filterButtons:hover {
+    background-color: #f77e21;
 }
 
 .activeButton {
