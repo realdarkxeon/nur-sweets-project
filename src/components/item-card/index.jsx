@@ -5,7 +5,7 @@ import { formatNum } from "../helper_functions";
 export const ItemCard = ({cake}) => {
     return (
         <div className="card cake-card">
-            <img className="card-img-top cake-photo" src={cake.url} />
+            <img className="card-img-top cake-photo" src={cake.url} alt={cake.name}/>
             <div className="card-body">
                 <p className="card-title">{cake.name}</p>
                 <p className="card-text">{cake.description}</p>
