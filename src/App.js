@@ -1,6 +1,7 @@
 import './App.css';
 import { ItemCard } from './components/item-card';
 import { Navbar } from './components/Navbar/Navbar';
+import { Filter } from './components/Filter';
 
 const Cakes = [
   {
