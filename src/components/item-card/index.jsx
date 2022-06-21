@@ -1,5 +1,6 @@
 import React from "react";
 import "./item-card.css"
+import { formatNum } from "../helper_functions";
 
 export const ItemCard = ({cake}) => {
     return (
@@ -11,7 +12,7 @@ export const ItemCard = ({cake}) => {
             </div>
             <div className="cake-card-footer">
                 <div class="price-section">
-                    <div className="cake-price">{cake.price}</div>
+                    <div className="cake-price">{formatNum(cake.price)}</div>
                 </div>
                 <button className="add-to-cart">Add to Cart</button>
             </div>
